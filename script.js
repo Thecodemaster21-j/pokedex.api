@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     container.innerHTML = `
       <img src="${sprite}" alt="${pokemonName}" />
-      <h2>#${id} ${pokemonName.charAt(0).toUpperCase() + pokemonName.slice(1)}</h2>
+      <h2>${pokemonName.charAt(0).toUpperCase() + pokemonName.slice(1)}</h2>
       <p><strong>Type:</strong> ${types.join(", ")}</p>
       <p><strong>Height:</strong> ${data.height / 10}m</p>
       <p><strong>Weight:</strong> ${data.weight / 10}kg</p>
